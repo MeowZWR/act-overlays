@@ -2,8 +2,255 @@
     "version": 2,
     "overlays": [
         {
-            "name": "Cactbot Configuration",
-            "uri": "https://overlayplugin.github.io/cactbot/ui/config/config.html",
+            "name": "Cactbot Configuration (Cactbot设置-呆萌源)",
+            "uri": "https://cactbot.diemoe.net/ui/config/config.html",
+            "plaintext_uri": "http://cactbot.diemoe.net/ui/config/config.html",
+            "features": [
+                "cactbot",
+                "system",
+                "overlay_ws"
+            ]
+        },
+        {
+            "name": "Cactbot DPS Xephero (DPS统计-呆萌源)",
+            "uri": "https://cactbot.diemoe.net/ui/dps/xephero/xephero-cactbot.html",
+            "plaintext_uri": "http://cactbot.diemoe.net/ui/dps/xephero/xephero-cactbot.html",
+            "features": [
+                "cactbot",
+                "overlay_ws"
+            ]
+        },
+        {
+            "name": "Cactbot DPS Rdmty (DPS统计-呆萌源)",
+            "uri": "https://cactbot.diemoe.net/ui/dps/rdmty/dps.html",
+            "plaintext_uri": "http://cactbot.diemoe.net/ui/dps/rdmty/dps.html",
+            "features": [
+                "cactbot",
+                "overlay_ws"
+            ]
+        },
+        {
+            "name": "Cactbot Eureka (优雷卡-呆萌源)",
+            "uri": "https://cactbot.diemoe.net/ui/eureka/eureka.html",
+            "plaintext_uri": "http://cactbot.diemoe.net/ui/eureka/eureka.html",
+            "features": [
+                "cactbot",
+                "overlay_ws"
+            ]
+        },
+        {
+            "name": "Cactbot Fisher (钓鱼-呆萌源)",
+            "uri": "https://cactbot.diemoe.net/ui/fisher/fisher.html",
+            "plaintext_uri": "http://cactbot.diemoe.net/ui/fisher/fisher.html",
+            "features": [
+                "cactbot",
+                "overlay_ws"
+            ]
+        },
+        {
+            "name": "Cactbot Jobs (职业监控-呆萌源)",
+            "uri": "https://cactbot.diemoe.net/ui/jobs/jobs.html",
+            "plaintext_uri": "http://cactbot.diemoe.net/ui/jobs/jobs.html",
+            "features": [
+                "cactbot",
+                "overlay_ws"
+            ]
+        },
+        {
+            "name": "Cactbot OopsyRaidsy (错误监控-呆萌源)",
+            "uri": "https://cactbot.diemoe.net/ui/oopsyraidsy/oopsyraidsy.html",
+            "plaintext_uri": "http://cactbot.diemoe.net/ui/oopsyraidsy/oopsyraidsy.html",
+            "features": [
+                "cactbot",
+                "overlay_ws"
+            ]
+        },
+        {
+            "name": "Cactbot PullCounter (开怪计时-呆萌源)",
+            "uri": "https://cactbot.diemoe.net/ui/pullcounter/pullcounter.html",
+            "plaintext_uri": "http://cactbot.diemoe.net/ui/pullcounter/pullcounter.html",
+            "features": [
+                "cactbot",
+                "overlay_ws"
+            ]
+        },
+        {
+            "name": "Cactbot Radar (雷达-呆萌源)",
+            "uri": "https://cactbot.diemoe.net/ui/radar/radar.html",
+            "plaintext_uri": "http://cactbot.diemoe.net/ui/radar/radar.html",
+            "features": [
+                "cactbot",
+                "overlay_ws"
+            ]
+        },
+        {
+            "name": "Cactbot Raidboss Alerts only (副本警报-呆萌源)",
+            "uri": "https://cactbot.diemoe.net/ui/raidboss/raidboss.html?alerts=1&timeline=0",
+            "plaintext_uri": "http://cactbot.diemoe.net/ui/raidboss/raidboss.html?alerts=1&timeline=0",
+            "features": [
+                "cactbot",
+                "overlay_ws"
+            ]
+        },
+        {
+            "name": "Cactbot Raidboss (Combined Alerts & Timeline) (副本警报+时间轴-呆萌源)",
+            "uri": "https://cactbot.diemoe.net/ui/raidboss/raidboss.html",
+            "plaintext_uri": "http://cactbot.diemoe.net/ui/raidboss/raidboss.html",
+            "features": [
+                "cactbot",
+                "overlay_ws"
+            ]
+        },
+        {
+            "name": "Cactbot Raidboss Timeline only (副本时间轴-呆萌源)",
+            "uri": "https://cactbot.diemoe.net/ui/raidboss/raidboss.html?alerts=0&timeline=1",
+            "plaintext_uri": "http://cactbot.diemoe.net/ui/raidboss/raidboss.html?alerts=0&timeline=1",
+            "features": [
+                "cactbot",
+                "overlay_ws"
+            ]
+        },
+        {
+            "name": "Cactbot Test (测试-呆萌源)",
+            "uri": "https://cactbot.diemoe.net/ui/test/test.html",
+            "plaintext_uri": "http://cactbot.diemoe.net/ui/test/test.html",
+            "features": [
+                "cactbot",
+                "overlay_ws"
+            ]
+        },
+        {
+            "name": "JiachengZ.Buff (团辅监控-呆萌源)",
+            "uri": "https://overlay.diemoe.net/cactbot/ui/jiachengz.buff/buff.html",
+            "plaintext_uri": "https://overlay.diemoe.net/cactbot/ui/jiachengz.buff/buff.html",
+            "features": [
+                "cactbot",
+                "overlay_ws"
+            ]
+        },
+        {
+            "name": "★Ember (DPS统计)",
+            "uri": "https://http.chrysus.xyz/ffxiv/ember-overlay/",
+            "plaintext_uri": "http://http.chrysus.xyz/ffxiv/ember-overlay/",
+            "features": [
+                "host_port"
+            ]
+        },
+        {
+            "name": "Ikegami (DPS统计-池上线-呆萌源)",
+            "uri": "https://overlay.diemoe.net/ikegami/",
+            "plaintext_uri": "http://overlay.diemoe.net/ikegami/",
+            "features": [
+                "host_port"
+            ]
+        },
+        {
+            "name": "Kagerou (DPS统计-影狼-呆萌源)",
+            "uri": "https://overlay.diemoe.net/kagerou/overlay/",
+            "plaintext_uri": "http://overlay.diemoe.net/kagerou/overlay/",
+            "features": [
+                "host_port"
+            ]
+        },
+        {
+            "name": "Skyline (DPS统计-水平布局-呆萌源)",
+            "uri": "https://overlay.diemoe.net/skyline/",
+            "plaintext_uri": "http://overlay.diemoe.net/skyline/",
+            "features": [
+                "host_port"
+            ]
+        },
+        {
+            "name": "CanisMinor (CMSkin) (DPS统计-呆萌源)",
+            "uri": "https://overlay.diemoe.net/cmskin/",
+            "plaintext_uri": "http://overlay.diemoe.net/cmskin/",
+            "features": [
+                "host_port"
+            ]
+        },
+        {
+            "name": "MopiMopi 1 (DPS统计-呆萌源)",
+            "uri": "https://overlay.diemoe.net/mopimopi/",
+            "plaintext_uri": "http://overlay.diemoe.net/mopimopi/",
+            "features": [
+                "host_port"
+            ]
+        },
+        {
+            "name": "MopiMopi 2 (DPS统计-呆萌源)",
+            "uri": "https://overlay.diemoe.net/mopimopi2/",
+            "plaintext_uri": "https://overlay.diemoe.net/mopimopi2/",
+            "features": [
+                "host_port"
+            ]
+        },
+        {
+            "name": "Amethyst (DPS统计-紫水晶的幻想-呆萌源)",
+            "uri": "https://overlay.diemoe.net/amethyst/",
+            "plaintext_uri": "http://overlay.diemoe.net/amethyst/",
+            "features": [
+                "host_port"
+            ]
+        },
+        {
+            "name": "Ikegami (DPS统计-池上线-咖啡源)",
+            "uri": "https://overlay.diemoe.net/ikegami/",
+            "plaintext_uri": "http://overlay.diemoe.net/ikegami/",
+            "features": [
+                "host_port"
+            ]
+        },
+        {
+            "name": "Kagerou (DPS统计-影狼-咖啡源)",
+            "uri": "https://overlays.ffcafe.cn/kagerou/overlay/",
+            "plaintext_uri": "http://overlays.ffcafe.cn/kagerou/overlay/",
+            "features": [
+                "host_port"
+            ]
+        },
+        {
+            "name": "CanisMinor (CMSkin) (DPS统计-咖啡源)",
+            "uri": "https://overlays.ffcafe.cn/canisminor/",
+            "plaintext_uri": "http://overlays.ffcafe.cn/canisminor/",
+            "features": [
+                "host_port"
+            ]
+        },
+        {
+            "name": "MopiMopi 1 (DPS统计-咖啡源)",
+            "uri": "https://overlays.ffcafe.cn/mopimopi/",
+            "plaintext_uri": "http://overlays.ffcafe.cn/mopimopi/",
+            "features": [
+                "host_port"
+            ]
+        },
+        {
+            "name": "MopiMopi 2 (DPS统计-咖啡源)",
+            "uri": "https://overlays.ffcafe.cn/mopimopi2/",
+            "plaintext_uri": "http://overlays.ffcafe.cn/mopimopi2/",
+            "features": [
+                "host_port"
+            ]
+        },
+        {
+            "name": "Amethyst (DPS统计-紫水晶的幻想-咖啡源)",
+            "uri": "https://overlays.ffcafe.cn/amethyst/",
+            "plaintext_uri": "http://overlays.ffcafe.cn/amethyst/",
+            "features": [
+                "host_port"
+            ]
+        },
+        {
+            "name": "Skyline (DPS统计-水平布局-咖啡源)",
+            "uri": "https://overlays.ffcafe.cn/skyline/",
+            "plaintext_uri": "http://overlays.ffcafe.cn/skyline/",
+            "features": [
+                "host_port"
+            ]
+        },
+        {
+            "name": "Cactbot Configuration (IINACT源)",
+            "uri": "https://quisquous.github.io/cactbot/ui/config/config.html",
             "plaintext_uri": "http://proxy.iinact.com/overlay/cactbot/ui/config/config.html",
             "features": [
                 "cactbot",
@@ -12,8 +259,8 @@
             ]
         },
         {
-            "name": "Cactbot DPS Xephero",
-            "uri": "https://overlayplugin.github.io/cactbot/ui/dps/xephero/xephero-cactbot.html",
+            "name": "Cactbot DPS Xephero (IINACT源)",
+            "uri": "https://quisquous.github.io/cactbot/ui/dps/xephero/xephero-cactbot.html",
             "plaintext_uri": "http://proxy.iinact.com/overlay/cactbot/ui/dps/xephero/xephero-cactbot.html",
             "features": [
                 "cactbot",
@@ -21,8 +268,8 @@
             ]
         },
         {
-            "name": "Cactbot DPS Rdmty",
-            "uri": "https://overlayplugin.github.io/cactbot/ui/dps/rdmty/dps.html",
+            "name": "Cactbot DPS Rdmty (IINACT源)",
+            "uri": "https://quisquous.github.io/cactbot/ui/dps/rdmty/dps.html",
             "plaintext_uri": "http://proxy.iinact.com/overlay/cactbot/ui/dps/rdmty/dps.html",
             "features": [
                 "cactbot",
@@ -30,8 +277,8 @@
             ]
         },
         {
-            "name": "Cactbot Eureka",
-            "uri": "https://overlayplugin.github.io/cactbot/ui/eureka/eureka.html",
+            "name": "Cactbot Eureka (IINACT源)",
+            "uri": "https://quisquous.github.io/cactbot/ui/eureka/eureka.html",
             "plaintext_uri": "http://proxy.iinact.com/overlay/cactbot/ui/eureka/eureka.html",
             "features": [
                 "cactbot",
@@ -39,8 +286,8 @@
             ]
         },
         {
-            "name": "Cactbot Fisher",
-            "uri": "https://overlayplugin.github.io/cactbot/ui/fisher/fisher.html",
+            "name": "Cactbot Fisher (IINACT源)",
+            "uri": "https://quisquous.github.io/cactbot/ui/fisher/fisher.html",
             "plaintext_uri": "http://proxy.iinact.com/overlay/cactbot/ui/fisher/fisher.html",
             "features": [
                 "cactbot",
@@ -48,8 +295,8 @@
             ]
         },
         {
-            "name": "Cactbot Jobs",
-            "uri": "https://overlayplugin.github.io/cactbot/ui/jobs/jobs.html",
+            "name": "Cactbot Jobs (IINACT源)",
+            "uri": "https://quisquous.github.io/cactbot/ui/jobs/jobs.html",
             "plaintext_uri": "http://proxy.iinact.com/overlay/cactbot/ui/jobs/jobs.html",
             "features": [
                 "cactbot",
@@ -57,8 +304,8 @@
             ]
         },
         {
-            "name": "Cactbot OopsyRaidsy",
-            "uri": "https://overlayplugin.github.io/cactbot/ui//oopsyraidsy/oopsyraidsy.html",
+            "name": "Cactbot OopsyRaidsy (IINACT源)",
+            "uri": "https://quisquous.github.io/cactbot/ui/oopsyraidsy/oopsyraidsy.html",
             "plaintext_uri": "http://proxy.iinact.com/overlay/cactbot/ui/oopsyraidsy/oopsyraidsy.html",
             "features": [
                 "cactbot",
@@ -66,8 +313,8 @@
             ]
         },
         {
-            "name": "Cactbot PullCounter",
-            "uri": "https://overlayplugin.github.io/cactbot/ui/pullcounter/pullcounter.html",
+            "name": "Cactbot PullCounter (IINACT源)",
+            "uri": "https://quisquous.github.io/cactbot/ui/pullcounter/pullcounter.html",
             "plaintext_uri": "http://proxy.iinact.com/overlay/cactbot/ui/pullcounter/pullcounter.html",
             "features": [
                 "cactbot",
@@ -75,8 +322,8 @@
             ]
         },
         {
-            "name": "Cactbot Radar",
-            "uri": "https://overlayplugin.github.io/cactbot/ui/radar/radar.html",
+            "name": "Cactbot Radar (IINACT源)",
+            "uri": "https://quisquous.github.io/cactbot/ui/radar/radar.html",
             "plaintext_uri": "http://proxy.iinact.com/overlay/cactbot/ui/radar/radar.html",
             "features": [
                 "cactbot",
@@ -84,8 +331,8 @@
             ]
         },
         {
-            "name": "Cactbot Raidboss Alerts only",
-            "uri": "https://overlayplugin.github.io/cactbot/ui/raidboss/raidboss.html?alerts=1&timeline=0",
+            "name": "Cactbot Raidboss Alerts only (IINACT源)",
+            "uri": "https://quisquous.github.io/cactbot/ui/raidboss/raidboss.html?alerts=1&timeline=0",
             "plaintext_uri": "http://proxy.iinact.com/overlay/cactbot/ui/raidboss/raidboss.html?alerts=1&timeline=0",
             "features": [
                 "cactbot",
@@ -93,8 +340,8 @@
             ]
         },
         {
-            "name": "Cactbot Raidboss (Combined Alerts & Timeline)",
-            "uri": "https://overlayplugin.github.io/cactbot/ui/raidboss/raidboss.html",
+            "name": "Cactbot Raidboss (Combined Alerts & Timeline) (IINACT源)",
+            "uri": "https://quisquous.github.io/cactbot/ui/raidboss/raidboss.html",
             "plaintext_uri": "http://proxy.iinact.com/overlay/cactbot/ui/raidboss/raidboss.html",
             "features": [
                 "cactbot",
@@ -102,8 +349,8 @@
             ]
         },
         {
-            "name": "Cactbot Raidboss Timeline only",
-            "uri": "https://overlayplugin.github.io/cactbot/ui/raidboss/raidboss.html?alerts=0&timeline=1",
+            "name": "Cactbot Raidboss Timeline only (IINACT源)",
+            "uri": "https://quisquous.github.io/cactbot/ui/raidboss/raidboss.html?alerts=0&timeline=1",
             "plaintext_uri": "http://proxy.iinact.com/overlay/cactbot/ui/raidboss/raidboss.html?alerts=0&timeline=1",
             "features": [
                 "cactbot",
@@ -111,8 +358,8 @@
             ]
         },
         {
-            "name": "Cactbot Test",
-            "uri": "https://overlayplugin.github.io/cactbot/ui/test/test.html",
+            "name": "Cactbot Test (IINACT源)",
+            "uri": "https://quisquous.github.io/cactbot/ui/test/test.html",
             "plaintext_uri": "http://proxy.iinact.com/overlay/cactbot/ui/test/test.html",
             "features": [
                 "cactbot",
@@ -120,7 +367,7 @@
             ]
         },
         {
-            "name": "Ember Overlay",
+            "name": "Ember Overlay (IINACT源)",
             "uri": "https://goldenchrysus.github.io/ffxiv/ember-overlay/",
             "plaintext_uri": "http://proxy.iinact.com/overlay/ember_overlay/",
             "features": [
@@ -128,7 +375,7 @@
             ]
         },
         {
-            "name": "Ember Spell Timers",
+            "name": "Ember Spell Timers (IINACT源)",
             "uri": "https://goldenchrysus.github.io/ffxiv/ember-overlay/?mode=spells",
             "plaintext_uri": "http://proxy.iinact.com/overlay/ember_overlay/?mode=spells",
             "features": [
@@ -136,7 +383,7 @@
             ]
         },
         {
-            "name": "Horizoverlay",
+            "name": "Horizoverlay (IINACT源)",
             "uri": "https://bsides.github.io/horizoverlay/",
             "plaintext_uri": "http://proxy.iinact.com/overlay/horizoverlay/",
             "features": [
@@ -144,7 +391,7 @@
             ]
         },
         {
-            "name": "Ikegami",
+            "name": "Ikegami (IINACT源)",
             "uri": "https://idyllshi.re/ikegami/",
             "plaintext_uri": "http://proxy.iinact.com/overlay/ikegami/",
             "features": [
@@ -152,7 +399,7 @@
             ]
         },
         {
-            "name": "Kagerou",
+            "name": "Kagerou (IINACT源)",
             "uri": "https://idyllshi.re/kagerou/overlay/",
             "plaintext_uri": "http://proxy.iinact.com/overlay/kagerou/",
             "features": [
@@ -160,7 +407,7 @@
             ]
         },
         {
-            "name": "MopiMopi",
+            "name": "MopiMopi (IINACT源)",
             "uri": "https://haeruhaeru.github.io/mopimopi/",
             "plaintext_uri": "http://proxy.iinact.com/overlay/mopimopi/",
             "features": [
@@ -168,7 +415,7 @@
             ]
         },
         {
-            "name": "NextUI",
+            "name": "NextUI (IINACT源)",
             "uri": "https://kaminaris.github.io/Next-UI/",
             "plaintext_uri": "http://proxy.iinact.com/overlay/nextui/",
             "features": [
@@ -176,8 +423,8 @@
             ]
         },
         {
-            "name": "Skyline",
-            "uri": "https://skyline.dsrkafuu.net/",
+            "name": "Skyline (IINACT源)",
+            "uri": "https://skyline.dsrkafuu.su",
             "plaintext_uri": "http://proxy.iinact.com/overlay/skyline/",
             "features": [
                 "overlay_ws"
